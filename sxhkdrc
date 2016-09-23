@@ -1,0 +1,16 @@
+# Terminal Emulator
+super + Return
+	urxvt
+
+# Program Launcher
+super + d
+	dmenu_run
+
+# resize window
+super + {J,L,I,K}
+	wrs {-20 0, 20 0, 0 -20, 0 20} $(pfw)
+
+
+# Kill Window Manager
+super + E
+	pkill swm
